@@ -13,23 +13,23 @@ public class java1 {
         double b = scan.nextDouble();
         double c = a + b;
         System.out.printf("Резуьтат сложения: %.4f", c);
-//        System.out.print("\nВыберите тип операции, введя символ: сложение - '+', вычитание - '-', умножение - '*', деление - '/': ");
-//        String empty= scan.nextLine();
-//        String math = scan.nextLine();
-//        double d = 0;
-//        if (math.equals("+")){
-//            d = a + b;
-//            System.out.printf("Ответ: %.4f", d);
-//        } else if (math.equals("-")){
-//            d = a - b;
-//            System.out.printf("Ответ: %.4f", d);
-//        } else if (math.equals("*")){
-//            d = a * b;
-//            System.out.printf("Ответ: %.4f", d);
-//        } else if (math.equals("/")){
-//            d = a / b;
-//            System.out.printf("Ответ: %.4f", d);
-//        } else System.out.println("Введен некорректный символ");
+        System.out.print("\nВыберите тип операции, введите символ: сложение - '+', вычитание - '-', умножение - '*', деление - '/': ");
+        String empty= scan.nextLine();
+        String math = scan.nextLine();
+        double d = 0;
+        if (math.equals("+")){
+            d = a + b;
+            System.out.printf("Ответ: %.4f", d);
+        } else if (math.equals("-")){
+            d = a - b;
+            System.out.printf("Ответ: %.4f", d);
+        } else if (math.equals("*")){
+            d = a * b;
+            System.out.printf("Ответ: %.4f", d);
+        } else if (math.equals("/")){
+            d = a / b;
+            System.out.printf("Ответ: %.4f", d);
+        } else System.out.println("Введен некорректный символ");
     }
 }
 
